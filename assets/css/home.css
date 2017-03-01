@@ -1,0 +1,315 @@
+/* CSS Document */
+
+body { 
+background-color: #e6f6f3;
+}
+
+#clouds {
+height: 648px;
+background: url('../img/home/cloud.png') top left repeat-x;
+z-index: 1;
+}
+
+#sun { 
+position: absolute;
+top: 7%;
+right: 10%;
+z-index: -1;
+border-radius: 50%;
+width: 67px;
+height: 68px;
+background-color: #ffca67;
+}
+
+#road { 
+width: 100%;
+height: 125px;
+background: url('../img/home/road.png') repeat-x;
+position: absolute;
+bottom: 0px;
+z-index: 2;
+}
+
+#cadillac { 
+width: 851px;
+height: 221px;
+background: url('../img/home/cadillac.png') no-repeat;
+position: absolute;
+bottom: 0px;
+left: -728px;
+overflow: hidden;
+z-index: 9;
+cursor: pointer;
+}
+
+#sign { 
+position: absolute;
+width: 449px;
+height: 298px;
+background: url('../img/home/sign.png') no-repeat scroll 0% 0% / cover transparent;
+right: 720px;
+bottom: 473px;
+z-index: 6;
+}
+
+#fence { 
+position: absolute;
+width: 100%;
+height: 102px;
+background: url('../img/home/fence.png') repeat-x;
+bottom: 125px;
+z-index: 3;
+}
+
+#rooms { 
+position: absolute;
+width: 100%;
+max-width: 800px;
+height: 131px;
+left: 0px;
+bottom: 120px;
+background: url('../img/home/rooms.png') no-repeat;
+z-index: 4;
+}
+
+#rooms #motel { 
+position: absolute;
+width: 212px;
+height: 56px;
+top: -55px;
+left: 25px;
+background: url('../img/home/motel.png') no-repeat;
+}
+
+#shrubs { 
+position: absolute;
+width: 100%;
+height: 59px;
+background: url('../img/home/shrubs_left.png') repeat-x scroll 0% 0% transparent;
+z-index: 5;
+bottom: 69px;
+right: 1050px;
+}
+
+#left_road { 
+position: absolute;
+width: 100%;
+height: 46px;
+right: 760px;
+bottom: 50px;
+background: url('../img/home/left_road.png') repeat;
+z-index: 3;
+}
+
+#office { 
+width: 1064px;
+height: 538px;
+background: url('../img/home/office.png') no-repeat;
+position: absolute;
+bottom: 50px;
+right: 0px;
+z-index: 5;
+}
+
+#office #faq { 
+width: 96px;
+height: 96px;
+background: url('../img/home/faq.png') no-repeat scroll 0% 0% / cover transparent;
+position: absolute;
+left: 451px;
+top: 43px;
+}
+
+#office #portfolio { 
+width: 216px;
+height: 136px;
+background: url('../img/home/portfolio.png') no-repeat;
+background-size: cover;
+position: absolute;
+right: 79px;
+top: 8px;
+cursor: pointer;
+}
+
+#office #door { 
+width: 105px;
+height: 230px;
+background: url('../img/home/door.png') no-repeat scroll 0% 0% / cover transparent;
+position: absolute;
+right: 514px;
+bottom: 29px;
+}
+
+#office #door #shade { 
+left: 8px;
+top: 9px;
+height: 75px;
+width: 88px;
+background: url('../img/home/shade.png') no-repeat scroll 0% 0% / cover transparent;
+position: absolute;
+cursor: default !important;
+}
+
+#office #window {
+width: 268px;
+height: 168px;
+background: url('../img/home/window2.png') no-repeat scroll 0% 0% / cover transparent;
+position: absolute;
+right: 225px;
+bottom: 88px;
+}
+
+#office #window #vacancy { 
+width: 106px;
+height: 49px;
+background: url('../img/home/vacancy.png') no-repeat scroll 0% 100% / cover transparent;
+position: absolute;
+top: 7px;
+left: 18px;
+cursor: default !important;
+}
+
+#office #window #vacancy.toggle:hover { 
+background-position: 0 0 !important;
+}
+
+#office #window #desk { 
+width: 139px;
+height: 43px;
+background: url('../img/home/desk.png') no-repeat scroll 0% 0% / cover transparent;
+position: absolute;
+right: 18px;
+bottom: 12px;
+}
+
+#office #window #desk #fan { 
+height: 60px;
+width: 51px;
+background: url('../img/home/fan-frame.png') no-repeat scroll 0% 0% / cover transparent;
+position: absolute;
+top: -60px;
+right: 26px;
+z-index: 4;
+}
+
+#office #window #desk #bladeswrap { 
+width: 44px;
+height: 44px;
+position: absolute;
+top: -56px;
+right: 30px;
+z-index: 3;
+
+    
+
+-webkit-animation-name: spin;
+-webkit-animation-duration: 600ms;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-webkit-animation-play-state: paused;
+-webkit-animation-direction: reverse;
+
+-moz-animation-name: spin;
+-moz-animation-duration: 600ms;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+-moz-animation-play-state: paused;
+-moz-animation-direction: reverse;
+
+-ms-animation-name: spin;
+-ms-animation-duration: 600ms;
+-ms-animation-iteration-count: infinite;
+-ms-animation-timing-function: linear;
+-ms-animation-play-state: paused;
+-ms-animation-direction: reverse;
+
+animation-name: spin;
+animation-duration: 600ms;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+animation-play-state: paused;
+animation-direction: reverse;
+}
+
+#office #window #desk #blades { 
+width: 100%;
+height: 100%;
+background: url('../img/home/fan-blades.png') no-repeat scroll 0% 0% / cover transparent;
+position: absolute;
+z-index: 3;
+
+-webkit-animation-name: spin;
+-webkit-animation-duration: 500ms;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-timing-function: linear;
+-moz-animation-name: spin;
+-moz-animation-duration: 500ms;
+-moz-animation-iteration-count: infinite;
+-moz-animation-timing-function: linear;
+-ms-animation-name: spin;
+-ms-animation-duration: 500ms;
+-ms-animation-iteration-count: infinite;
+-ms-animation-timing-function: linear;
+
+animation-name: spin;
+animation-duration: 500ms;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+#office #window #desk #bladeswrap.slow { 
+-webkit-animation-play-state: running;
+animation-play-state: running;
+-ms-animation-play-state: running;
+-moz-animation-play-state: running;
+}
+
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+#office #services { 
+width: 25px;
+height: 206px;
+position: absolute;
+background: url('../img/home/services.png') no-repeat;
+left: 30px;
+bottom: 190px;
+}
+
+#office #creative-team { 
+width: 199px;
+height: 153px;
+position: absolute;
+right: 15px;
+bottom: 100px;
+background: url('../img/home/creative-team.png') no-repeat;
+}
+
+#office #best-little { 
+width: 569px;
+height: 32px;
+background: url('../img/home/best-little.png') no-repeat scroll 0% 0% / cover transparent;
+position: absolute;
+left: 460px;
+bottom: 285px;
+}
+
+#mailbox { 
+width: 95px;
+height: 127px;
+background: url('../img/home/mailbox.png') no-repeat scroll 0% 0% / cover transparent;
+position: absolute;
+right: 630px;
+bottom: 79px;
+z-index: 8;
+}

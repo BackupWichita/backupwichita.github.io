@@ -1,0 +1,149 @@
+/* CSS Document */
+
+body { 
+background-color: #e7923a;
+}
+
+#brochure { 
+width: 1198px;
+height: 800px;
+margin: 50px auto;
+background: url('../img/contact/brochure-spread.png') top left no-repeat;
+position: relative;
+}
+
+#cig-pack { 
+width: 539px;
+height: 620px;
+position: absolute;
+top: -360px;
+left: -545px;
+background: url('../img/contact/cig-pack.png') top left no-repeat;
+}
+
+#zippo { 
+width: 392px;
+height: 441px;
+position: absolute;
+bottom: -110px;
+left: -270px;
+background: url('../img/contact/zippo-open.png') top left no-repeat;
+}
+
+#room-keys { 
+width: 269px;
+height: 670px;
+position: absolute;
+top: -40px;
+right: -290px;
+background: url('../img/contact/room-keys.png') top left no-repeat;
+}
+
+#loose-cigs { 
+width: 445px;
+height: 383px;
+position: absolute;
+bottom: -140px;
+right: -360px;
+background: url('../img/contact/loose-cigs.png') top left no-repeat;
+}
+
+#form #form-head { 
+width: 324px;
+height: 101px;
+position: absolute;
+top: 35px;
+left: 430px;
+background: url('../img/contact/form-heading.png') top left no-repeat;
+}
+
+#form #fields { 
+width: 330px;
+position: absolute;
+top: 160px;
+left: 430px;
+}
+
+#form #fields input[type=text] { 
+display: block;
+padding: 5px;
+font-size: 22px;
+background: none;
+border: none;
+width: 100%;
+}
+
+#form #fields textarea { 
+display: block;
+padding: 5px;
+font-size: 18px;
+background: none;
+border: none;
+width: 100%;
+resize: none;
+height: 150px;
+}
+
+#form #fields label { 
+display: block;
+padding-top: 5px;
+text-align: center;
+background: url('../img/contact/form-dots.png') top left repeat-x;
+font-family: "Myriad Pro";
+text-transform: uppercase;
+color: #61360a;
+font-weight: 600;
+letter-spacing: 4px;
+margin-bottom: 20px;
+padding-top: 10px;
+cursor: pointer;
+}
+
+#form #submit-button { 
+width: 152px;
+height: 151px;
+position: absolute;
+bottom: 65px;
+left: 620px;
+background: url('../img/contact/submit-button.png') top left no-repeat;
+border: none;
+padding: 0px;
+margin: 0px;
+text-indent: -9999px;
+}
+
+#backup-creative { 
+width: 353px;
+height: 52px;
+position: absolute;
+right: 60px;
+top: 30px;
+background: url('../img/contact/backup-creative.png') top left no-repeat;
+}
+
+#backup-emblem { 
+width: 197px;
+height: 191px;
+position: absolute;
+top: 100px;
+right: 60px;
+background: url('../img/contact/backup-emblem.png') top left no-repeat;
+}
+
+#just-call { 
+width: 258px;
+height: 46px;
+position: absolute;
+bottom: 150px;
+right: 100px;
+background: url('../img/contact/just-call.png') top left no-repeat;
+}
+
+#call-us { 
+width: 271px;
+height: 65px;
+position: absolute;
+bottom: 60px;
+right: 90px;
+background: url('../img/contact/call-us.png') top left no-repeat;
+}

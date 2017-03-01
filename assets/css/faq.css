@@ -1,0 +1,314 @@
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Maiden+Orange);
+
+body { 
+background-color: #e6f6f3;
+}
+
+#clouds {
+height: 648px;
+background: url('../img/home/cloud.png') top left repeat-x;
+z-index: 1;
+}
+
+#road { 
+height: 415px;
+position: absolute;
+bottom: 0px;
+width: 100%;
+background: url('../img/faq/bottom.png') 0% 0% repeat-x;
+z-index: 3;
+}
+
+#flags { 
+height: 77px;
+width: 100%;
+position: absolute;
+bottom: 455px;
+background: url('../img/faq/flags.png') 0% 0% repeat-x;
+z-index: 4;
+}
+
+#tent { 
+width: 484px;
+height: 202px;
+position: absolute;
+left: 0px;
+bottom: 415px;
+background: url('../img/faq/tent.png') 0% 0% no-repeat;
+z-index: 1;
+}
+
+#ferris { 
+width: 532px;
+height: 606px;
+position: absolute;
+bottom: 250px;
+z-index: 1;
+right: 0px;
+}
+
+
+#ferris #wheel { 
+width: 532px;
+height: 532px;
+position: absolute;
+top: 0px;
+left: 0px;
+background: url('../img/faq/ferris_wheel.png') 0% 0% no-repeat;
+z-index: 2;
+}
+
+#ferris #wheel .bucket { 
+height: 68px;
+width: 54px;
+position: absolute;
+transform-origin: '50% 50%';
+-moz-transform-origin: '50% 50%';
+-webkit-transform-origin':'50% 50%';
+-o-transform-origin: '50% 50%';
+-ms-transform-origin': '50% 50%';
+}
+
+#ferris #wheel .yellow { 
+background: url('../img/faq/ferris_yw.png') no-repeat scroll 0% 0% transparent;
+}
+
+#ferris #wheel .red { 
+background: url('../img/faq/ferris_red.png') no-repeat scroll 0% 0% transparent;
+}
+
+#ferris #wheel .blue { 
+background: url('../img/faq/ferris_bl.png') no-repeat scroll 0% 0% transparent;
+}
+
+#ferris #wheel .a { 
+bottom: 115px;
+left: 5px;
+}
+#ferris #wheel .b { 
+bottom: 97px;
+right: 15px;
+}
+
+#ferris #wheel .c { 
+bottom: 458px;
+right: 105px;
+}
+
+#ferris #wheel .d { 
+bottom: 465px;
+left: 118px;
+}
+
+#ferris #wheel .e { 
+bottom: 231px;
+right: -23px;
+}
+
+#ferris #wheel .f { 
+bottom: 232px;
+left: -23px;
+}
+
+#ferris #wheel .g { 
+top: 109px;
+right: 8px;
+}
+
+#ferris #wheel .h { 
+top: 97px;
+left: 13px;
+}
+#ferris #wheel .i { 
+bottom: -1px;
+right: 118px;
+}
+#ferris #wheel .j { 
+bottom: -30px;
+left: 237px;
+}
+#ferris #wheel .k { 
+bottom: 8px;
+left: 103px;
+}
+#ferris #wheel .l { 
+top: -31px;
+left: 238px;
+}
+
+#loading img {
+}
+
+#ferris #legs { 
+width: 224px;
+height: 354px;
+position: absolute;
+left: 50%;
+bottom: 0px;
+margin-left: -112px;
+background: url('../img/faq/ferris_legs.png') 0% 0% no-repeat;
+}
+
+#truck { 
+width: 1109px;
+height: 582px;
+position: absolute;
+left: 50%;
+margin-left: -542px;
+background: url('../img/faq/truck.png') 0% 0% no-repeat;
+bottom: 60px;
+z-index: 4;
+}
+
+#truck #speaker { 
+width: 138px;
+height: 92px;
+position: absolute;
+top: -82px;
+right: 180px;
+background: url('../img/faq/speaker.png') 0% 0% no-repeat;
+}
+
+#truck #logo { 
+display: block;
+width: 195px;
+height: 174px;
+background: url('../img/faq/logo.png') 0% 0% no-repeat;
+top: -174px;
+left: 35%;
+position: absolute;
+z-index: -1;
+}
+
+#truck .board { 
+width: 492px;
+height: 85px;
+position: absolute;
+}
+
+#truck .top { 
+top: 48px;
+left: 58px;
+}
+
+#truck .bottom { 
+bottom: 158px;
+left: 58px;
+}
+
+#truck .board .item { 
+width: 48%;
+margin: 1%;
+height: 35px;
+background: #fff;
+float: left;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+line-height: 35px;
+font-size: 15px;
+cursor: pointer;
+font-weight: bold;
+overflow: hidden;
+}
+
+#truck .board .item .question { 
+color: #5d6e63;
+}
+
+#truck .board .item .question:hover, #truck .board .active .question {
+color: #f86161;
+}
+
+#truck .board .item .answer { 
+display: none;
+}
+
+#truck #window {
+position: absolute;
+left: 87px;
+top: 146px;
+height: 186px;
+width: 438px;
+display: table;
+}
+
+#truck #window #inside { 
+top: 1px;
+left: 1px;
+width: 174px;
+height: 185px;
+background: url('../img/faq/window_inside.png') 0% 0% no-repeat;
+position: absolute;
+}
+
+#truck #window #inside #freezer { 
+width:155px;
+height: 59px;
+background: url('../img/faq/freezer.png') 0% 0% no-repeat;
+position: absolute;
+right: 0px;
+bottom: 0px;
+cursor: pointer;
+}
+
+#truck #window #inside #freezer:hover { 
+background-position: 0px -59px;
+}
+
+#truck #window #inside .open { 
+background-position: 0px -118px !important;
+}
+
+#truck #window #inside .cone { 
+display: block;
+position: absolute;
+top: -60px;
+left: 55px;
+width: 28px;
+height: 44px;
+background: url('../img/faq/snowcone.png') no-repeat scroll 0% 0% transparent;
+}
+
+#truck #window #inside .bombpop { 
+display: block;
+position: absolute;
+top: -60px;
+left: 55px;
+width: 33px;
+height: 66px;
+background: url('../img/faq/bombpop.png') no-repeat scroll 0% 0% transparent;
+}
+
+#truck #window #inside .sandwich { 
+display: block;
+position: absolute;
+top: -60px;
+left: 55px;
+width: 64px;
+height: 36px;
+background: url('../img/faq/sandwich.png') no-repeat scroll 0% 0% transparent;
+}
+
+
+#truck #window #words {
+width: 243px;
+height: 183px;
+top: 1px;
+right: -2px;
+font-family: 'Rokkitt', sans-serif;
+font-size: 15px;
+letter-spacing: 1px;
+display: table-cell;
+padding: 10px 5px;
+line-height: 100%;
+color: #262424;
+}
+
+#truck #window #words h3 { 
+font-family: 'Montserrat', sans-serif;
+color: #e58a41;
+font-size: 15px;
+margin-bottom: 8px;
+margin-top: 0;
+}

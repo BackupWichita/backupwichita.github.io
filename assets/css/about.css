@@ -1,0 +1,271 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Marck+Script);
+
+body { 
+background: url('../img/about/body.png') bottom left repeat-x #e6f6f3;
+background-size: contain;
+}
+
+#clouds {
+height: 648px;
+background: url('../img/about/sunset_clouds.png') top left repeat-x;
+z-index: 1;
+}
+
+#lanterns { 
+width: 100%;
+background: url('../img/about/lanterns.png') repeat-x;
+height: 137px;
+position: absolute;
+bottom: 700px;
+}
+
+#trailerwrap { 
+width: 1050px;
+height: 702px;
+position: absolute;
+bottom: 25px;
+left: 100px;
+}
+
+#trailerwrap #trailer { 
+width: 100%;
+height: 100%;
+background: url('../img/about/trailer2.png') no-repeat;
+background-size: cover;
+z-index: 4;
+position: absolute;
+}
+
+#trailerwrap #trailerinside { 
+width: 903px;
+height: 393px;
+background: url('../img/about/trailer-inside.png') no-repeat scroll 0% 0% / cover transparent;
+z-index: 1;
+position: absolute;
+left: 104px;
+top: 134px;
+}
+
+#trailerwrap #flaming-peek { 
+width: 91px;
+height: 145px;
+background: url('../img/about/flaming-right.png') no-repeat scroll left top transparent;
+position: absolute;
+right: 85px;
+top: 317px;
+-webkit-transition: all 1s ease-out;
+-moz-transition: all 1s ease-out;
+-ms-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+transition: all 1s ease-out;
+z-index: 2;
+}
+
+#trailerwrap #flaming-peek.active { 
+right: 85px;
+top: 227px;
+}
+
+#trailerwrap #peekactivator { 
+right: 55px;
+top: 200px;
+width: 142px;
+height: 110px;
+position: absolute;
+z-index: 5;
+}
+
+#grass { 
+position: absolute;
+bottom: 0px;
+width: 100%;
+background: url('../img/about/grass.png') top left repeat-x;
+height: 277px;
+}
+
+#dooractivator { 
+width: 154px;
+height: 398px;
+position: absolute;
+left: 524px;
+top: 133px;
+cursor: pointer;
+z-index: 5;
+}
+
+#chris-hand { 
+position: absolute;
+z-index: 3;
+background: url('../img/about/chris-hand.png') no-repeat scroll left top transparent;
+width: 119px;
+height: 92px;
+left: 485px;
+
+bottom: 390px;
+-webkit-transition: all 1s ease-out;
+-moz-transition: all 1s ease-out;
+-ms-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+transition: all 1s ease-out;
+}
+
+#tiffany-hand { 
+position: absolute;
+z-index: 2;
+background: url('../img/about/tiffany-hand.png') no-repeat scroll left top transparent;
+width: 105px;
+height: 97px;
+right: 350px;
+bottom: 390px;
+-webkit-transition: all 1s ease-out;
+-moz-transition: all 1s ease-out;
+-ms-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+transition: all 1s ease-out;
+}
+
+#chris-hand.active { 
+left: 395px;
+}
+
+#tiffany-hand.active { 
+right: 250px;
+}
+
+#grass #treeline { 
+position: absolute;
+width: 100%;
+height: 351px;
+background: url('../img/about/treeline.png') top left repeat-x;
+bottom: 270px;
+z-index: 1;
+}
+
+#set { 
+width: 100%;
+max-width: 1590px;
+min-width: 1470px;
+bottom: 0px;
+position: absolute;
+right: 0px;
+z-index: 3;
+}
+
+#focus {
+width: 100%;
+max-width: 1200px;
+min-width: 1000px;
+position: absolute;
+bottom: 0px;
+right: 0px;
+}
+
+#focus #projector {
+width: 270px;
+height: 228px;
+background: url('../img/about/projector.png') top left no-repeat;
+bottom: 25px;
+right: -25px;
+position: absolute;
+}
+
+#grill {
+height: 195px;
+width: 151px;
+background: url('../img/about/grill.png') top left no-repeat;
+position: absolute;
+right: 0px;
+bottom: 15px;
+z-index: 5;
+}
+
+#chairs { 
+width: 362px;
+height: 206px;
+background: url('../img/about/chairs.png') top left no-repeat;
+position: absolute;
+left: -50px;
+bottom: 15px;
+z-index: 5;
+}
+
+#flaming-right { 
+width: 91px;
+height: 145px;
+background: url('../img/about/flaming-right') top left no-repeat;
+position: absolute;
+z-index: 5;
+right: -100px;
+bottom: 100px;
+}
+
+#flaming-left { 
+width: 97px;
+height: 154px;
+background: url('../img/about/flaming-left.png') top left no-repeat;
+position: absolute;
+z-index: 5;
+left: -140px;
+bottom: -20px;
+}
+
+#clothesline { 
+width: 1590px;
+height: 395px;
+background: url('../img/about/clothesline.png') bottom left no-repeat;
+position: absolute;
+bottom: 250px;
+background-size: cover;
+}
+
+#sheet { 
+width: 330px;
+height: 308px;
+position: absolute;
+right: 62px;
+top: 33px;
+font-size: 15px;
+letter-spacing: 0px;
+font-family: 'Rokkitt', serif;
+color: #8495B3;
+line-height: 120%;
+padding-top: 10px;
+}
+
+#sheet h1 { 
+margin-bottom: 10px;
+margin-top: 10px;
+font-size: 22px;
+font-family: 'Montserrat', sans-serif;
+color: #e38132;
+font-weight: bold;
+}
+
+#sheet p { 
+margin: 5px 0px 10px 0px;
+color: #262424;
+letter-spacing: 0;
+}
+
+#sheet .signed { 
+display: block;
+text-align: right;
+margin-right: 12px;
+}
+
+#sheet .button-wrap { 
+text-align: center;
+padding-top: 10px;
+}
+
+#sheet a.button { 
+background-color: #e58a41;
+color: #fff;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+padding: 5px 15px;
+text-decoration: none;
+}

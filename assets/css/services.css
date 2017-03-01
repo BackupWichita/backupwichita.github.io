@@ -1,0 +1,268 @@
+/* CSS Document */
+
+@import url(https://fonts.googleapis.com/css?family=Changa+One);
+
+body { 
+background-color: #e6f6f3;
+min-width: 1100px;
+min-height: 850px;
+}
+
+#clouds {
+height: 648px;
+background: url('../img/home/cloud.png') top left repeat-x;
+z-index: 1;
+}
+
+#road { 
+width: 100%;
+position: absolute;
+background: url('../img/services/road.png') repeat-x;
+height: 255px;
+bottom: 0px;
+}
+
+#set { 
+width: 100%;
+max-width: 1300px;
+min-width: 1100px;
+bottom: 0px;
+position: absolute;
+right: 0px;
+z-index: 3;
+}
+
+#focus {
+width: 100%;
+max-width: 1200px;
+min-width: 1000px;
+position: absolute;
+bottom: 0px;
+right: 50px;
+}
+
+#focus #start-up { 
+width: 186px;
+height: 238px;
+position: absolute;
+bottom: 47px;
+right: 0px;
+background: url('../img/services/start-up.png') no-repeat;
+z-index: 3;
+}
+
+#focus #board { 
+width: 214px;
+height: 479px;
+position: absolute;
+bottom: 140px;
+right: 150px;
+background: url('../img/services/board.png') no-repeat;
+z-index: 2;
+}
+
+#focus #board ul { 
+list-style: none;
+padding: 0px;
+margin: 8px;
+margin-top: 28px;
+font-size: 25px;
+color: black;
+font-family: 'Changa One', cursive;
+font-weight: normal;
+}
+
+#focus #board ul li { 
+background: #F7C14B;
+line-height: 35px;
+height: 35px;
+text-align: center;
+margin: 5px 3px;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+#focus #board ul li:hover { 
+background: #fbce6b;
+}
+
+#focus #board ul li.sel { 
+background-color: #fde3aa;
+}
+
+#focus #board ul li.maint { 
+color: #cc5252;
+}
+
+#focus #board #balloon { 
+cursor: pointer;
+position: absolute;
+top: -182px;
+right: -63px;
+width: 99px;
+height: 215px;
+background: url('../img/services/balloon.png') no-repeat scroll 0% 0% transparent;
+}
+
+#focus #board #reset-balloon { 
+width: 21px;
+height: 18px;
+display: block;
+position: absolute;
+top: 0px;
+right: 0px;
+}
+
+#focus #board .away { 
+background-position: 0px 100% !important;
+}
+
+
+#focus #bot { 
+width: 304px;
+height: 410px;
+position: absolute;
+bottom: 50px;
+right: 290px;
+background: url('../img/services/bot.png') no-repeat;
+z-index: 3;
+}
+
+#focus #garage {
+width: 738px;
+height: 635px;
+position: absolute;
+background: url('../img/services/garage.png') no-repeat;
+left: 0px;
+bottom: 140px;
+z-index: 1;
+}
+
+#focus #garage #sign { 
+display: block;
+width: 183px;
+height: 190px;
+background: url('../img/services/sign.png') no-repeat;
+position: absolute;
+left: 50%;
+margin-left: -91px;
+top: -79px;
+}
+
+#focus #garage #car { 
+width: 475px;
+height: 229px;
+position: absolute;
+background: url('../img/services/car.png') no-repeat scroll 0% 0% transparent;
+left: 131px;
+bottom: 40px;
+z-index: 4;
+background-position: 0px 0px;
+}
+#focus #garage #doorway { 
+width: 506px;
+height: 458px;
+left: 116px;
+top: 177px;
+z-index: 5;
+overflow: hidden;
+position: absolute;
+}
+
+#focus #garage #door { 
+width: 100%;
+height: 100%;
+background: url('../img/services/door.png') bottom left no-repeat;
+position: absolute;
+top: -450px;
+}
+
+#focus #garage #door .content { 
+width: 100%;
+height: 100%;
+position: absolute;
+botom: 0px;
+overflow: hidden;
+}
+
+#focus #garage #door .content .section { 
+position: absolute;
+width: 100%;
+height: 100%;
+display: none;
+text-align: center;
+font-family: 'Lato', sans-serif;
+cursor: default !important;
+}
+
+#focus #garage #door .content .section.active { 
+display: block !important;
+}
+
+#focus #garage #doorway #door .content .section h1 { 
+color: #d6c09f;
+font-size: 32px;
+margin: 30px 0 25px 0;
+font-family: 'Changa One', cursive;
+}
+
+#focus #garage #doorway #door .content .section ul { 
+margin: 0 0 25px;
+padding: 0;
+}
+
+#focus #garage #doorway #door .content .section ul li  {
+margin: 10px 0;
+color: #525d8a;
+font-size: 15px;
+text-transform: uppercase;
+list-style: none;
+}
+
+#focus #garage #doorway #door .content .section p { 
+text-align: left;
+margin: 10px 50px;
+color: #27282a;
+font-size: 14px;
+font-weight: 300;
+line-height: 150%;
+letter-spacing: 2px;
+}
+
+#focus #garage #doorway #door .content .section ul li:before { 
+content: "»";
+font-size: 18px;
+color: #ce4747;
+margin: 0 10px 0;
+}
+
+
+#focus #garage #radio { 
+width: 160px;
+height: 152px;
+position: absolute;
+left: -50px;
+bottom: -60px;
+background: url('../img/services/radio.png') no-repeat scroll 0% 0% transparent;
+cursor: pointer;
+}
+
+#gas-pump { 
+width: 150px;
+height: 311px;
+background: url('../img/services/gas-pump.png') no-repeat;
+position: absolute;
+bottom: 155px;
+right: 0px;
+z-index: 2;
+}
+
+#shop { 
+width: 583px;
+height: 680px;
+background: url('../img/services/shop.png') no-repeat;
+position: absolute;
+left: 0px;
+bottom: 130px;
+z-index: 2;
+}
