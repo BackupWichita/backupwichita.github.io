@@ -142,6 +142,10 @@ font-weight: normal;
 letter-spacing: 3px;
 }
 
+.main .slide .pictures {
+	text-align: center;
+}
+
 .main .slide .words { 
 color: #b7aa9f;
 font-size: 14px;
