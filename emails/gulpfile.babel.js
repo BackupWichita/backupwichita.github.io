@@ -36,7 +36,7 @@ gulp.task('litmus',
 
 // Build emails, then send to EMAIL
 gulp.task('mail',
-  gulp.series('build', creds, aws, mail));
+  gulp.series('build', creds, mail));
 
 // Build emails, then zip
 gulp.task('zip',
