@@ -93,6 +93,7 @@ font-weight: bold;
 position: absolute;
 left: 50%;
 margin-left: -350px;
+width: 100%;
 max-width: 700px;
 top: 70px;
 z-index:99999;
@@ -128,6 +129,7 @@ overflow: hidden;
 
 .main .slide { 
 max-width: 960px;
+width: 100%;
 margin: 0px auto;
 padding-top: 65px;
 }
